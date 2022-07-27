@@ -112,6 +112,7 @@ img {
 }
 
 .logo {
+  display: flex;
   margin-right: 93px;
 
   color: var(--main-txt-color);
@@ -349,7 +350,7 @@ img {
   position: relative;
 }
 
-.overlay-about {
+.overlay-about-txt {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -360,17 +361,13 @@ img {
 
   width: 100%;
   height: 70px;
-
-  background-color: rgba(47, 48, 58, 0.8);
-}
-
-.overlay-about-txt {
   
-
+  font-weight: 700;
   line-height: calc(16 / 14);
   text-align: center;
   text-transform: uppercase;
   color: var(--secondary-txt-color);
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
 .team {
